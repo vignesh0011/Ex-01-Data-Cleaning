@@ -36,22 +36,18 @@ dd.tail()
 dd.info()
 dd.isnull()
 dd.isnull().sum()
-
 #mode
 dd['show_name'] = dd['show_name'].fillna(dd['aired_on'].mode()[0])
 dd['aired_on'] = dd['aired_on'].fillna(dd['aired_on'].mode()[0])
 dd['original_network'] = dd['original_network'].fillna(dd['aired_on'].mode()[0])
 dd.head()
-
 #mean
 dd['rating'] = dd['rating'].fillna(dd['rating'].mean())
 dd['current_overall_rank'] = dd['current_overall_rank'].fillna(dd['current_overall_rank'].mean())
 dd.head()
-
 #median
 dd['watchers'] = dd['watchers'].fillna(dd['watchers'].median())
 dd.head()
-
 dd.info()
 dd.isnull().sum()
 ~~~
@@ -68,22 +64,18 @@ de.tail(10)
 de.info()
 de.isnull()
 de.isnull().sum()
-
 #mode
 de['Gender'] = de['Gender'].fillna(de['Dependents'].mode()[0])
 de['Dependents'] = de['Dependents'].fillna(de['Dependents'].mode()[0])
 de['Self_Employed'] = de['Self_Employed'].fillna(de['Dependents'].mode()[0])
 de.head()
-
 #mean
 de['LoanAmount'] = de['LoanAmount'].fillna(de['LoanAmount'].mean())
 de['Loan_Amount_Term'] = de['Loan_Amount_Term'].fillna(de['Loan_Amount_Term'].mean())
 de.tail()
-
 #median
 de['Credit_History'] = de['Credit_History'].fillna(de['Credit_History'].median())
 de.head()
-
 de.info()
 de.isnull().sum()
 ~~~
