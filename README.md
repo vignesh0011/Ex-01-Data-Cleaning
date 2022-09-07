@@ -23,6 +23,7 @@ Save the Clean data to the file
 Developed by: M VIGNESH
 Reg.no: 212220233002
 ~~~
+
 ## Data_set.csv
 ~~~
 import numpy as np
@@ -51,6 +52,7 @@ dd.head()
 dd.info()
 dd.isnull().sum()
 ~~~
+
 ## Loan_data.csv
 ~~~
 import numpy as np
@@ -79,6 +81,7 @@ de.head()
 de.info()
 de.isnull().sum()
 ~~~
+
 # OUPUT
 ## Data_set
 ![1](https://user-images.githubusercontent.com/53014593/188911025-7ff03656-af23-423a-a144-64b6a3dcab95.png)
@@ -88,7 +91,6 @@ de.isnull().sum()
 ![5](https://user-images.githubusercontent.com/53014593/188911358-137b4577-b341-4759-ab71-4c1954bbeee3.png)
 ![6](https://user-images.githubusercontent.com/53014593/188911382-4fce6ee5-7be6-4318-988a-2a20c0d720bb.png)
 ![7](https://user-images.githubusercontent.com/53014593/188911413-2c531e95-e135-4d99-bf14-ad991f9cf5ac.png)
-
 ## Loan_data
 ![1](https://user-images.githubusercontent.com/53014593/188911528-e051c57f-93a7-454f-9ca8-6c7d6a9274a6.png)
 ![2](https://user-images.githubusercontent.com/53014593/188911635-32310c5b-8846-4b63-8ae0-4ee28558b7ac.png)
